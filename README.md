@@ -15,8 +15,8 @@ Site adapted from [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) w
 	- Should this be shown only once? (Add a cookie to detect?)
 		- Note: unsure how to do this easily
 ### Content-Related
-- [ ] Fill out about page
-- [ ] Add old posts.
+- [ ] Fill out about page (Just edit `about.md`). Use (markdown cheatsheet)[https://www.markdownguide.org/cheat-sheet/] to help you.
+- [ ] Add old posts (see below)
 
 ## How To Post
 ### Writing the Post
