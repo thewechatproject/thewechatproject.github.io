@@ -1,0 +1,18 @@
+Matthew Shu:
+  type      : person
+  name      : Matthew Shu
+  url       : https://www.matthewshu.com
+  avatar    : https://www.matthewshu.com/assets/matthew_shu_headshot.png
+  bio       : Hi! I'm a Thai-Chinese-American student interested in Asian American studies, education, sociology, and programming. After a gap year, I will be attending Yale University.
+  email     : mattmshu+contact@gmail.com
+  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  twitter   : mattshu8 # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+  medium    : "@matthewshu" # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+  zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+  douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : nonameentered # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
