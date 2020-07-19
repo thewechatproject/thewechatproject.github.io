@@ -1,6 +1,6 @@
 # thewechatproject.github.io
 
-Site adapted from [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) which is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+Site adapted from [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) which is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE). Documentation for [TeXt Theme is found here](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start).
 
 ## How To Post
 ### Writing the Post
