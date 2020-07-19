@@ -19,6 +19,9 @@ Publishing posts will require signing up for a (Github)[https://github.com/join]
 
 After setting up Github and Github Desktop, find the green `Code` button and click `Open with Github Desktop`. The site should now be downloaded onto your computer. Make sure to periodically `pull` or `Fetch origin` to ensure your version of the website is up to date.
 
+#### Creating Your Author
+If you have previously made yourself an author skip this step. Go to `_data/authors.yml` and follow the previous examples in the file to create your own author name and information.
+
 #### The `_Posts` Folder
 Go to the `_posts` folder. This is the only folder that needs to be modified to create posts. Move your essay document into this folder and make sure it has the `.markdown` extension. Follow the naming convention shown in other files `YYYY-MM-DD-your-post-title.markdown`.
 
@@ -43,6 +46,7 @@ Here's some explanation for a few of these variables.
 - `key` - a unique identifier for the post. Always add `en` or `zh` as a suffix depending on the language of your post.
 - `date` - By default, times are in Eastern time. Include a timezone offset (e.g ` −0500`) at the end if you wish to modify.
 - `lang` - If your post is in Chinese, add `lang: zh`.
+- `author` - By default, all articles are published under the `The Wechat Project` organization. If you would like attribute the article to yourself personally, use this variable and refer to the name you defined in `_data/authors.yml`
 It is possible to add additional variables here, including `modify_date`. [Here's a list](https://tianqi.name/jekyll-TeXt-theme/docs/en/layouts) with some otherpossible variables to define.
 
 ##### Table of Contents
