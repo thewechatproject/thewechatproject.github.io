@@ -213,6 +213,7 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+      show_author_profile: true
 
 
 ## => Plugins
