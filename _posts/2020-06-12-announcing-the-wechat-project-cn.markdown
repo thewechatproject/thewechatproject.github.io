@@ -1,10 +1,9 @@
 ---
 layout: article
 title:  华裔二代大学生开启跟父母一代的对话：请倾听我们的心声
-date:   2020-06-11 11:00:00 −0500
+date:   2020-06-11 11:00:00
 categories: Announcement
 tags: [Race, Open Letters, Asian Americans, Chinese]
-sharing: true
 lang: zh
 key: post-announcing-the-wechat-project-ch
 aside:

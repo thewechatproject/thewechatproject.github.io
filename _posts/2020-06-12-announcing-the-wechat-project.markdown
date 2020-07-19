@@ -1,10 +1,9 @@
 ---
 layout: article
 title:  Announcing the WeChat Project
-date:   2020-06-08 11:00:00 −0500
+date:   2020-06-08 11:00:00
 categories: Announcements
 tags: [Race, Open Letters, Asian Americans, English]
-sharing: true
 key: post-chinese-american-open-letter-en
 aside:
   toc: false
