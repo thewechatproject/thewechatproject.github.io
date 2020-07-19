@@ -2,6 +2,22 @@
 
 Site adapted from [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) which is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE). Documentation for [TeXt Theme is found here](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start).
 
+## To Do
+### Code-Related
+- [ ] Add the correct logo as the header
+	- Should modify `_includes/header.html`?
+	- Logo can be found in `svg` and `png` form in `_includes/svg`
+	- How would this work on mobile?
+		- Add check where image is only shown on large enough screens?
+- [ ] Figure out social media bug
+### Mixed
+- [ ] Create a splash page in the same vein as [this](https://tianqi.name/jekyll-TeXt-theme/) (except with contact info in addition to the brief description)
+	- Should this be shown only once? (Add a cookie to detect?)
+		- Note: unsure how to do this easily
+### Content-Related
+- [ ] Fill out about page
+- [ ] Add old posts.
+
 ## How To Post
 ### Writing the Post
 You can use anything (e.g Google Docs, Notepad) to write your article. The key is to eventually turn the article into a markdown document (file ends with .md). Using a Markdown editor like (Typora)[https://typora.io/] or (IAWriter)[https://ia.net/writer] throughout the writing process may save some time but could make collaboration difficult.
