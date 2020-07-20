@@ -1,9 +1,11 @@
 .header {
   background: $header-background;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+  // color: khaki;
   a {
     font-weight: map-get($base, font-weight);
     text-decoration: none !important;
-    @include link-colors($header-text-color, $main-color-1);
+    @include link-colors($header-text-color, #F0F0F0);
   }
   .main {
     @include flexbox();
@@ -52,6 +54,7 @@
     }
   }
   & > .search-button {
+    background-color: lightsteelblue !important;
     display: none;
     margin-left: map-get($spacers, 2);
     @include media-breakpoint-down(md) {
@@ -63,9 +66,19 @@
 .header__brand {
   @include flexbox();
   @include align-items(center);
+  border-radius:20px;
+
+  & > svg:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius:20px;
+    transition: box-shadow 0.25s;
+  }
+
   & > svg {
-    width: map-get($base, font-size-h4) * 1.6;
-    height: map-get($base, font-size-h4) * 1.6;
+    padding: 0px;
+    transition: 0.25s;
+    width: map-get($base, font-size-h1) * 7.5;
+    height: map-get($base, font-size-h1) * 1.6;
     margin-right: map-get($spacers, 3);
     vertical-align: middle;
     @include media-breakpoint-down(md) {
@@ -74,15 +87,19 @@
     }
   }
   & > a {
-    display: inline-block;
-    font-size: map-get($base, font-size-h4);
+    width: map-get($base, font-size-h1) * 7;
+    height: map-get($base, font-size-h1) * 7;
+    margin-right: map-get($spacers, 3);
+    vertical-align: middle;
     @include media-breakpoint-down(md) {
-      font-size: map-get($base, font-size-h4-small);
+      width: map-get($base, font-size-h4) * 1.2;
+      height: map-get($base, font-size-h4) * 1.2;
     }
   }
 }
 
 .navigation {
+  // box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
   @include overflow(auto, "x");
   & > ul {
     height: map-get($layout, header-height);
@@ -106,6 +123,7 @@
 }
 
 .navigation__item {
+  // color: khaki;
   &::after {
     display: block;
     margin-bottom: -4px;
@@ -115,9 +133,9 @@
 }
 .navigation__item--active {
   a {
-    @include link-colors($main-color-1, $main-color-1);
+    @include link-colors($header-text-color, lightsteelblue);
   }
   &::after {
-    @include split-line(bottom, 4px, $main-color-1);
+    @include split-line(bottom, 4px, $header-text-color);
   }
 }

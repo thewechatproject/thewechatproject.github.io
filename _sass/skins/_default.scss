@@ -5,10 +5,10 @@
 ///
 
 // main colors
-$main-color-1:     #fc4d50;
+$main-color-1:     maroon;
 $text-color-1:     #fff;
 
-$main-color-2:     #fca24d;
+$main-color-2:     maroon;
 $text-color-2:     #fff;
 
 $main-color-3:     #f2f2f2;
@@ -36,11 +36,13 @@ $text-color-l:     $text-color-theme-light-l;
 $text-background-color: rgba(#000, .05);
 
 // header and footer colors
-$header-text-color: $text-color-3;
-$header-background: $main-color-3;
+$header-text-color: white;
+$header-text-color-2: #F0F0F0;
+// $header-background: #f2f2f2;
+$header-background: maroon;
 
-$footer-text-color: $text-color-3;
-$footer-background: $main-color-3;
+$footer-text-color: white;
+$footer-background: maroon;
 
 // border and shadow colors
 $border-color:     mix(#000, $background-color, 20%);
@@ -57,7 +59,8 @@ $red:             #f5222d;
 $text-color-function: #fff;
 
 // logo colors
-$mail-color:       #0072c5;
+// $mail-color:       #0072c5;
+$mail-color: lightsteelblue;
 $facebook-color:   #4267b2;
 $twitter-color:    #1da1f2;
 $weibo-color:      #e6162d;
