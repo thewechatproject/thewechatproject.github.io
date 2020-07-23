@@ -11,6 +11,8 @@ tags:
   - netlify
   - cms
   - tech
+aside:
+  toc: true
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida est eu viverra condimentum. Cras viverra, enim eu finibus tempus, turpis ex pellentesque magna, in ultrices ipsum turpis at orci. Morbi id lacus elit. Sed at mollis purus, at ultricies risus. Donec eu lorem nisi. Morbi condimentum, ante eget efficitur finibus, odio ex bibendum est, id pharetra orci orci vitae tellus. Proin ac varius velit. Aenean odio justo, dictum et ex ut, venenatis eleifend felis. Nunc vel interdum enim, nec laoreet quam. Phasellus a rhoncus urna.
 
