@@ -14,7 +14,11 @@ tags:
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida est eu viverra condimentum. Cras viverra, enim eu finibus tempus, turpis ex pellentesque magna, in ultrices ipsum turpis at orci. Morbi id lacus elit. Sed at mollis purus, at ultricies risus. Donec eu lorem nisi. Morbi condimentum, ante eget efficitur finibus, odio ex bibendum est, id pharetra orci orci vitae tellus. Proin ac varius velit. Aenean odio justo, dictum et ex ut, venenatis eleifend felis. Nunc vel interdum enim, nec laoreet quam. Phasellus a rhoncus urna.
 
-Praesent fermentum augue eu efficitur convallis. Duis eu ligula a arcu imperdiet rutrum. Morbi dictum id arcu at vestibulum. Aenean purus arcu, vestibulum in dapibus vel, tincidunt in odio. In volutpat ut tellus sit amet ultricies. Praesent id neque ligula. Duis sit amet pharetra arcu.
+Praesent fermentu
+
+![](/assets/images/uploads/logo-wechat-project.png "Wechat project logo")
+
+m augue eu efficitur convallis. Duis eu ligula a arcu imperdiet rutrum. Morbi dictum id arcu at vestibulum. Aenean purus arcu, vestibulum in dapibus vel, tincidunt in odio. In volutpat ut tellus sit amet ultricies. Praesent id neque ligula. Duis sit amet pharetra arcu.
 
 Sed convallis urna ante, sed sodales metus semper at. Proin id eros tincidunt, tempor erat et, varius leo. Pellentesque eleifend enim vel ante vestibulum, ut sodales arcu viverra. Aenean suscipit interdum lobortis. Praesent sit amet auctor magna, vel rutrum est. Donec sollicitudin gravida libero quis tristique. Sed interdum faucibus ante non porttitor. Aliquam erat volutpat.
 
