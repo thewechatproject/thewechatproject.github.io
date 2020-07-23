@@ -1,19 +1,21 @@
 ---
 layout: article
-title:  华裔二代大学生开启跟父母一代的对话：请倾听我们的心声
-date:   2020-06-11 11:00:00
+title: 华裔二代大学生开启跟父母一代的对话：请倾听我们的心声
+key: post-announcing-the-wechat-project-zh
+date: 2020-06-11 11:00:00
+lang: zh
 categories:
   - Announcements
-tags: 
+tags:
   - Race
   - Open Letters
   - Asian Americans
   - Chinese
-lang: zh
-key: post-announcing-the-wechat-project-ch
 aside:
   toc: false
-excerpt: 为此，我们和同学们携手创办“心声”栏目——与《美国华人》微信公众号及其网站合作（The WeChat Project )， 我们将定期发表文章，开启我们渴望已久的两代人之间的对话。考虑到我们正处于特殊时刻，初期，我们会讨论诸如警察暴行或大规模监禁之类的话题，以这些热议的话题为开端，以后还会跟大家一起探讨跟我们切身相关的心理健康、性少数群体、教育成就等话题。文章在《美国华人》发表的同时，每周也会以电子邮件的形式发送。
+cover: /assets/images/uploads/logo-wechat-project.png
+excerpt: 为此，我们和同学们携手创办“心声”栏目——与《美国华人》微信公众号及其网站合作（The WeChat Project )，
+  我们将定期发表文章，开启我们渴望已久的两代人之间的对话。考虑到我们正处于特殊时刻，初期，我们会讨论诸如警察暴行或大规模监禁之类的话题，以这些热议的话题为开端，以后还会跟大家一起探讨跟我们切身相关的心理健康、性少数群体、教育成就等话题。文章在《美国华人》发表的同时，每周也会以电子邮件的形式发送。
 ---
 [英文版（English version）]({% link _posts/2020-06-12-announcing-the-wechat-project.markdown %})
 
