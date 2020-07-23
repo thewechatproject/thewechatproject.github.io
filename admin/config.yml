@@ -26,6 +26,11 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Categories", name: "categories", widget: "list", field: {label: "Categories", name: "category_name", widget: "string"}}
       - {label: "Tags", name: "tags", widget: "list", field: {label: "Tag", name: "tag_name", widget: "string"}}
+      - label: "Table of Contents"
+        name: "aside"
+        widget: "object"
+        fields: 
+          - {label: "Show Table of Contents", name: "toc", widget: "boolean", default: false}
       - {label: "Excerpt", name: "excerpt", widget: "markdown", required: false, hint: "When left blank, uses the beginning of the post"}
       - {label: "Body", name: "body", widget: "markdown"}
 
