@@ -36,6 +36,7 @@ collections:
         required: false
         fields: 
           - {label: "Show Table of Contents", name: "toc", widget: "boolean", default: false}
+      - {label: "Cover", name: "cover", widget: "image", required: false}
       - {label: "Excerpt", name: "excerpt", widget: "markdown", required: false, hint: "When left blank, uses the beginning of the post"}
       - {label: "Body", name: "body", widget: "markdown"}
 
