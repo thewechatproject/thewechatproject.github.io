@@ -2,8 +2,12 @@
 layout: article
 title:  Test Post
 date:   2020-07-19 11:00:00
-categories: Test
-tags: [Experiment, English]
+categories: 
+  - Test
+tags: 
+  - Experiment
+  - English
+lang: en
 key: post-test-post-en
 excerpt: This is a test post exploring some features of this website.
 ---
