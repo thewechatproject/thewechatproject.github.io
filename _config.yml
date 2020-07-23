@@ -18,7 +18,7 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://thewechatproject.github.io
+url     : https://wechatproject.netlify.app
 baseurl : # does not include hostname
 title   : The Wechat Project
 description: > # this means to ignore newlines until "Language & timezone"
@@ -36,7 +36,7 @@ timezone: America/New_York
 author:
   type      : organization
   name      : The Wechat Project
-  url       : https://thewechatproject.github.io
+  url       : https://wechatproject.netlify.app
   avatar    : # path or url of avatar image (square)
   bio       : Promoting cross-generational dialogue within the Asian American community.
   email     : thewechatproject@gmail.com
@@ -55,7 +55,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: nonameentered/nonameentered.github.io
+repository: thewechatproject/thewechatproject
 repository_tree: master
 
 ## => Paths
