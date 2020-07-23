@@ -5,7 +5,6 @@ date:   2020-07-19 11:00:00
 categories: Test
 tags: [Experiment, English]
 key: post-test-post-en
-author: Matthew Shu
 excerpt: This is a test post exploring some features of this website.
 ---
 
