@@ -5,118 +5,43 @@
 {%- else -%}
   <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- endif -%}
-    <div class="main">
-      <div class="header__title">
-        {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+
+{%- if site.data.navigation.header -%}
+{%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
         {%- include snippets/get-nav-url.html path=_paths_root -%}
-        <a href="{{ __return }}">
-        <div class="header__brand">
-          {%- include svg/desired-logo.svg -%}
 
-<<<<<<< HEAD
-          <!-- {%- if site.title -%}
-            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
-          {%- endif -%} -->
-        </div>
-        </a>
-
-        {%- if site.search.provider -%}
-          <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
-        {%- endif -%}
+<div class="navigation">
+    <a href="{{ __return }}" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">
+     <div class="header__brand">
+         {%- include svg/desired-logo.svg -%}
       </div>
-      {%- if site.data.navigation.header -%}
-      <nav class="navigation">
-        <ul>
-          {%- for _item in site.data.navigation.header -%}
-            {%- include snippets/get-nav-url.html path=_item.url -%}
-            {%- assign _nav_url = __return -%}
-            {%- include snippets/get-nav-url.html path=page.url -%}
-            {%- assign _page_url = __return -%}
-            {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
-            {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
-              <li class="navigation__item navigation__item--active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
-            {%- else -%}
-              <li class="navigation__item"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
-            {%- endif -%}
-          {%- endfor -%}
-          {%- if site.search.provider -%}
-            <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
-          {%- endif -%}
-=======
-<!-- <nav class="navbar navbar-expand-lg navbar-light">
-  {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
-  {%- include snippets/get-nav-url.html path=_paths_root -%}
-  {%- if site.title -%}
-  <a href="{{ __return }}" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">
-    <div class="navbar-brand">
-      {%- include svg/desired-logo.svg -%}
+      </a>
+    <div class="nav-link nav-link-toggle">
+      <i class="fa-2 fas fa-bars"></i>
     </div>
-    </a>
-  {%- endif -%}
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      {%- for _item in site.data.navigation.header -%}
-        {%- include snippets/get-nav-url.html path=_item.url -%}
-        {%- assign _nav_url = __return -%}
-        {%- include snippets/get-nav-url.html path=page.url -%}
-        {%- assign _page_url = __return -%}
-        {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
-        {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
-          <li class="nav-item active"><a class="nav-link" href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
-        {%- else -%}
-          <li class="nav-item"><a class="nav-link" href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
-  </div>
-</nav>
-{%- if site.search.provider -%}
-  <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
-{%- endif -%} -->
-
-    <div class="main">
-      <div class="header__title">
-        {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
-        {%- include snippets/get-nav-url.html path=_paths_root -%}
-        <a href="{{ __return }}">
-        <div class="header__brand">
-          {%- include svg/desired-logo.svg -%}
-
-          {%- if site.title -%}
-            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
-          {%- endif -%}
-        </div>
-        </a>
-
-        {%- if site.search.provider -%}
-          <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
-        {%- endif -%}
-      </div>
-      {%- if site.data.navigation.header -%}
-      <nav class="navigation">
-        <ul>
-          {%- for _item in site.data.navigation.header -%}
-            {%- include snippets/get-nav-url.html path=_item.url -%}
-            {%- assign _nav_url = __return -%}
-            {%- include snippets/get-nav-url.html path=page.url -%}
-            {%- assign _page_url = __return -%}
-            {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
-            {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
-              <li class="navigation__item navigation__item--active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
-            {%- else -%}
-              <li class="navigation__item"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
-            {%- endif -%}
-          {%- endfor -%}
-          {%- if site.search.provider -%}
-            <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
-          {%- endif -%}
->>>>>>> parent of aa33dc0... mobile navbar and bootstrap integration
-        </ul>
-      </nav>
+  <nav class="nav-items nav-items--right">
+    {%- for _item in site.data.navigation.header -%}
+      {%- include snippets/get-nav-url.html path=_item.url -%}
+      {%- assign _nav_url = __return -%}
+      {%- include snippets/get-nav-url.html path=page.url -%}
+      {%- assign _page_url = __return -%}
+      {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
+      {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
+        <div class="nav-link"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></div>
+      {%- else -%}
+        <div class="nav-link"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></div>
       {%- endif -%}
+    {%- endfor -%}
+    <div class="nav-item">
+      {%- if site.search.provider -%}
+      <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
+    {%- endif -%}
     </div>
-  </header>
+  </nav>
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+{%- include scripts/navigation.js -%}
+</script>
+</header>
+{%- endif -%}
