@@ -1,13 +1,24 @@
 ---
 layout: article
-title:  Announcing the WeChat Project
-date:   2020-06-08 11:00:00
-categories: Announcements
-tags: [Race, Open Letters, Asian Americans, English]
+title: Announcing the WeChat Project
 key: post-chinese-american-open-letter-en
+date: 2020-06-08 11:00:00
+lang: en
+categories:
+  - Announcements
+tags:
+  - Race
+  - Open Letters
+  - Asian Americans
+  - English
 aside:
   toc: false
-excerpt: We’re starting “The WeChat Project”—a partnership with Chinese American where we’ll be releasing new articles about conversations we want to start. Given the moment we find ourselves in, these articles will begin with topics like police brutality or mass incarceration, but will eventually include topics like mental health, queer identity, and educational achievement.
+cover: /assets/images/uploads/logo-wechat-project.png
+excerpt: We’re starting “The WeChat Project”—a partnership with Chinese American
+  where we’ll be releasing new articles about conversations we want to start.
+  Given the moment we find ourselves in, these articles will begin with topics
+  like police brutality or mass incarceration, but will eventually include
+  topics like mental health, queer identity, and educational achievement.
 ---
 [Chinese version（中文版)]({% link _posts/2020-06-12-announcing-the-wechat-project-cn.markdown %})
 
