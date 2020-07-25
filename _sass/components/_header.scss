@@ -1,71 +1,25 @@
 .header {
   background: $header-background;
+  height: 5rem;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
   a {
     font-weight: map-get($base, font-weight);
     text-decoration: none !important;
-    @include link-colors($header-text-color, $main-color-1);
-  }
-  .main {
-    @include flexbox();
-    @include media-breakpoint-down(md) {
-      @include flex-direction(column);
-    }
-  }
-}
-
-.header--dark {
-  @extend .text--dark;
-  background: rgba(#000, .15);
-  .navigation__item--active {
-    &::after {
-      @include split-line(bottom, 4px, $text-color-theme-dark);
-    }
-  }
-}
-
-.header--light {
-  @extend .text--light;
-  background: rgba(#fff, .15);
-  .navigation__item--active {
-    &::after {
-      @include split-line(bottom, 4px, $text-color-theme-light);
-    }
-  }
-}
-
-.header__title {
-  @include menu(3, 0);
-  @include align-items(center);
-  @include flex-wrap(nowrap);
-  @include flex(1);
-  height: map-get($layout, header-height);
-  margin-right: map-get($spacers, 3);
-  white-space: nowrap;
-  @include media-breakpoint-down(md) {
-    height: auto;
-    margin-right: 0;
-  }
-  & > .header__brand {
-    @include flex(1);
-    @include media-breakpoint-down(md) {
-      height: map-get($layout, header-height-sm);
-    }
-  }
-  & > .search-button {
-    display: none;
-    margin-left: map-get($spacers, 2);
-    @include media-breakpoint-down(md) {
-      @include flexbox();
-    }
+    @include link-colors($header-text-color, $header-text-color-2);
   }
 }
 
 .header__brand {
   @include flexbox();
   @include align-items(center);
+  border-radius:20px;
+  vertical-align: middle;
+
   & > svg {
-    width: map-get($base, font-size-h4) * 1.6;
-    height: map-get($base, font-size-h4) * 1.6;
+    padding: 0px;
+    transition: 0.25s;
+    width: map-get($base, font-size-h1) * 7.5;
+    height: map-get($base, font-size-h1) * 1.6;
     margin-right: map-get($spacers, 3);
     vertical-align: middle;
     @include media-breakpoint-down(md) {
@@ -73,51 +27,113 @@
       height: map-get($base, font-size-h4) * 1.2;
     }
   }
+
+  & > svg:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius:20px;
+    transition: box-shadow 0.25s;
+  }
+
   & > a {
-    display: inline-block;
-    font-size: map-get($base, font-size-h4);
+    width: map-get($base, font-size-h1) * 7;
+    height: map-get($base, font-size-h1) * 7;
+    margin-right: map-get($spacers, 3);
+    vertical-align: middle;
     @include media-breakpoint-down(md) {
-      font-size: map-get($base, font-size-h4-small);
+      width: map-get($base, font-size-h4) * 1.2;
+      height: map-get($base, font-size-h4) * 1.2;
     }
   }
 }
 
 .navigation {
-  @include overflow(auto, "x");
-  & > ul {
-    height: map-get($layout, header-height);
-    padding-bottom: 0;
-    margin: 0;
-    @include media-breakpoint-down(md) {
-      padding-bottom: 4px;
-      margin: -4px 0 0 0;
-    }
-    @include menu(3, 2, nowrap);
-    @include align-items(center);
-    @include media-breakpoint-down(md) {
-      height: auto;
-    }
-    .search-button {
-      @include media-breakpoint-down(md) {
-        display: none;
+  display: flex;
+  padding-top: 0.5rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: "Lucida Grande";
+  color: inherit;
+}
+
+.nav-items {
+  display: flex;
+  padding-top: 1.1rem;
+}
+
+.nav-link {
+  padding:0.6rem;
+  padding-top: 0.15rem !important;
+}
+
+.nav-item {
+  padding-left:0.4rem;
+}
+
+.nav-items--right {
+  padding-top: 1.1rem;
+  margin-left:auto;
+  padding-right: 1.5rem;
+}
+
+.nav-link-toggle {
+  display: none;
+}
+
+// resize for smaller screens
+@media only screen and (max-width: 700px) {
+  .header__brand {
+    & > svg {
+      margin-left:-0.5rem;
+      height: 4.5rem;
+      width:15rem;
       }
     }
+
+  .navigation {
+    flex-direction: column;
+  }
+
+  .nav-items {
+      display:none;
+      padding: 0px;
+      align-items: center;
+    }
+
+  .nav-items--right {
+      margin:0;
+  }
+
+  .nav-item {
+    padding: 0px;
+    padding-top:0.3rem;
+  }
+
+  .nav-toggle-show {
+      display: flex;
+      flex-direction: column;
+    }
+
+  .nav-link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+      padding-bottom: 0.3rem !important;
+      border: 0.1px solid rgba(0,0,0,0.2);
+      border-radius: 7px !important;
+      margin-top:0.8rem;
+  }
+
+  .nav-link-toggle:hover{
+      background-color:white;
+      transition:0.25s;
+  }
+
+  .header-toggle {
+    height: 16rem;
   }
 }
 
-.navigation__item {
-  &::after {
-    display: block;
-    margin-bottom: -4px;
-    content: "";
-    @include split-line(bottom, 4px, transparent);
-  }
-}
-.navigation__item--active {
-  a {
-    @include link-colors($main-color-1, $main-color-1);
-  }
-  &::after {
-    @include split-line(bottom, 4px, $main-color-1);
-  }
+.search-button {
+  background-color: white;
 }
