@@ -7,7 +7,16 @@ lang: en
 aside:
   toc: false
 cover: /assets/images/uploads/yale.jpg
-excerpt: ""
+excerpt: My name is Eileen Huang, and I am a junior at Yale University studying
+  English. I was asked to write a reflection, maybe even a poem, on Chinese
+  American history after watching Asian Americans, the new documentary on PBS.
+  However, I find it hard to write poems at a time like this. I refuse to focus
+  on our history, our stories, and our people without acknowledging the
+  challenges, pain, and trauma experienced by marginalized people—ourselves
+  included—even today. In light of protests in Minnesota, which were sparked by
+  the murder of George Floyd at the hands of racist White and Asian police
+  officers, I specifically want to address the rampant anti-Blackness in the
+  Asian American community that, if unchecked, can bring violence to us all.
 ---
 [中文版(Chinese Version)](https://chineseamerican.org/p/31574)
 
