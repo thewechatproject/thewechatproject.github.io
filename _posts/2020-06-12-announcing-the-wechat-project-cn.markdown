@@ -2,7 +2,7 @@
 layout: article
 title: 华裔二代大学生开启跟父母一代的对话：请倾听我们的心声
 key: post-announcing-the-wechat-project-zh
-date: 2020-05-31T22:00:00.000Z
+date: 2020-05-31T20:00:00.000Z
 lang: zh
 categories:
   - Announcements
