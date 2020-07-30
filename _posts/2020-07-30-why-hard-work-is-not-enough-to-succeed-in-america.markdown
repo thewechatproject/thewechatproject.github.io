@@ -11,7 +11,18 @@ tags:
 aside:
   toc: false
 cover: /assets/images/uploads/1.png
-excerpt: ""
+excerpt: "Growing up in a New Jersey suburb with a large Chinese American
+  population, I was always taught that there is one key to success in America:
+  hard work. The Chinese immigrants in my community were proof positive that the
+  American Dream was real and that with hard work you could get anywhere. Many
+  of them, including my parents, had come to the US with almost nothing. They
+  struggled through graduate programs on scholarships or TA-ships or odd jobs,
+  started from the bottom rungs of corporate ladders, furnished their own
+  clinics and advertised their own private practices. With hard work, they
+  graduated, received promotions, and amassed clients and patients. They told me
+  these stories so I would remember how lucky I was to be growing up in a
+  beautiful town with everything I could possibly want, and so I would remember
+  that I, too, had a duty to work hard and carry their success forward."
 ---
 [Chinese version (中文版)](https://wechatproject.netlify.app/2020/07/29/%E5%9C%A8%E7%BE%8E%E5%9B%BD%E4%BB%85%E5%87%AD%E5%8A%AA%E5%8A%9B%E5%B0%B1%E8%83%BD%E6%88%90%E5%8A%9F%E5%90%97-%E5%8D%8E%E4%BA%8C%E4%BB%A3%E7%BB%99%E7%88%B6%E6%AF%8D%E4%B8%80%E4%BB%A3%E7%9A%84%E4%B8%87%E5%AD%97%E9%95%BF%E6%96%87.html)
 
